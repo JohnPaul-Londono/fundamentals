@@ -1,15 +1,27 @@
 x = [ [5,2,3], [10,8,9] ] 
 students = [
-    {'first_name':  'Michael', 'last_name' : 'Bryant'},
+    {'first_name':  'Michael', 'last_name' : 'Jordan'},
     {'first_name' : 'John', 'last_name' : 'Rosales'}
 ]
 sports_directory = {
     'basketball' : ['Kobe', 'Jordan', 'James', 'Curry'],
-    'soccer' : ['Andres', 'Ronaldo', 'Rooney']
+    'soccer' : ['Messi', 'Ronaldo', 'Rooney']
 }
-z = [ {'x': 10, 'y': 30} ]
+z = [ {'x': 10, 'y': 20} ]
 
 
+x[1][0]=15
+print(x[1][0])
+
+
+students[0]['last_name']='Bryant'
+print (students)
+
+sports_directory['soccer'][0] = 'Andres'
+print( sports_directory['soccer'])
+
+z[0]['y'] = 30
+print(z)
 
 # Iterate Through a List of Dictionaries
 # Create a function iterateDictionary(some_list) that, given a list of dictionaries, the function loops through each dictionary in the list and prints each key and the associated value. For example, given the following list:
